@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from 'react';
-import { db } from '../../../firebase';
+import { db } from '../../firebase';
 import { collection, getDocs, query, orderBy } from 'firebase/firestore';
 
 interface Review {
